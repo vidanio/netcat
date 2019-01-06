@@ -1835,6 +1835,7 @@ options:");
 	-u			UDP mode\n\
 	-v			verbose [use twice to be more verbose]\n\
 	-w secs			timeout for connects and final net reads\n\
+  -x string   string ident for process\n\
 	-z			zero-I/O mode [used for scanning]");
   bail ("port numbers can be individual or ranges: lo-hi [inclusive]");
 } /* helpme */
